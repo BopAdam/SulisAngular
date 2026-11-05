@@ -1,0 +1,19 @@
+BootStrap modális ablak 5.x
+
+xport class App {
+ jo_ido_van: boolean = false;}
+
+
+ @if
+ @else
+
+ _@for_
+
+
+ fruits= {"alma","korte","barack","szilva"}
+ 
+ <ul>
+    @for(fruit of fruits ; track fruit ){
+        <li>{{ fruit }}</li>
+    }
+ </ul>
